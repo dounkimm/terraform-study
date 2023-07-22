@@ -1,10 +1,10 @@
 
 variable "subnet_id" {
-  default = "subnet-090af243cfcf70ae5"
+  default = "[subnet id]"
 }
 
 variable "key_name" {
-  default = "doun-test"
+  default = "[key name]"
 }
 
 variable "name" {
