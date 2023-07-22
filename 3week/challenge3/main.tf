@@ -1,5 +1,3 @@
-# 조건문을 활용하여 (각자 편리한) AWS 리소스를 배포하는 코드 작성
-
 variable "subnet_id" {
   default = "[subnet id]"
 }
