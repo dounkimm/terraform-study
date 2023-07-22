@@ -37,7 +37,7 @@ resource "aws_instance" "test" {
   connection {
     type     = "ssh"
     user     = "ubuntu"  # ubunt로 접속
-    private_key = file("/root/doun-test.pem")
+    private_key = file("[pem 파일 위치]")
     host     = self.public_ip
   }
 
